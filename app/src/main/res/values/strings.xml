@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Test_LoginAll</string>
+    <string name="zalo_app_id">2618039263026796972</string>
+    <string name="facebook_app_id">709788902918884</string>
+    <string name="fb_login_protocol_scheme">fb709788902918884</string>
+    <string name="server_client_id">361070523318-hb91amk2qi0fb3mnf4bk9je4gt58g80v.apps.googleusercontent.com</string>
+
+</resources>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".activity.ProfileActivity">
+
+    <ImageView
+        android:id="@+id/imgAvatar"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="32dp"
+        android:scaleType="fitCenter"></ImageView>
+
+    <LinearLayout
+        android:layout_marginBottom="32dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.4"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="Tên:"
+                android:textSize="20sp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="Ngày Sinh:"
+                android:textSize="20sp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="Email:"
+                android:textSize="18sp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="Token:"
+                android:textSize="20sp"></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="Lại văn nguyễn châu "
+                android:textSize="20sp"></TextView>
+
+            <TextView
+                android:id="@+id/tvBirthDay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="Thêm ngày sinh"
+                android:textSize="20sp"></TextView>
+
+            <TextView
+                android:id="@+id/tvEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="Thêm email của bạn"
+                android:textSize="20sp"></TextView>
+
+            <TextView
+                android:id="@+id/tvDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="Không có"
+                android:textSize="20sp"></TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+        <Button
+            android:id="@+id/btnLogOut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Đăng Xuất"></Button>
+
+        <Button
+            android:id="@+id/btnDisconnect"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ngắt kết nối với Facbook"
+            android:gravity="center"></Button>
+</LinearLayout>
